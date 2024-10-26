@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/36241c65d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, i'm <span>Akhil</span> </h1>
+        </div>
+    </div>
+</div>
+<!-----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/8.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey There ! Welcome to my portfolio! I am a final-year student at MLR Institute of Technology,
+                    passionate about exploring and adapting to emerging technologies. As a novice web developer, 
+                    I enjoy creating engaging and user-friendly web applications.My enthusiasm for technology 
+                    extends to cloud computing, particularly with AWS. I believe in the transformative power of cloud solutions and am committed to building a career in this exciting field.
+                    I thrive in dynamic environments and am always looking for opportunities to learn and contribute to innovative projects.
+                    Thank you for visiting my portfolio, and I look forward to connecting!</p>
+
+                <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Languages</span><br>Java, C++, JavaScript, Python</li>
+                            <li><span>Web Developer</span><br>Designing Web/App interfaces</li>
+                            <li><span>Databases</span><br>MangoDB, MySQL</li>
+                            <li><span>Web Technologies</span><br>HTML ,CSS ,JavaScript</li>
+                            <li><span>Version Controlling Tools</span><br>GitHub</li>
+                            <li><span>CS Fundamentals</span><br>Data Structures & Algoriths ,Operating Systems ,Novice-Networking , OOPs</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                            <li><span>MLR INSTITUTE OF TECHNOLOGY</span><br>Bachelor of Technology (B.Tech) Electrical & Electronics Engineering <br> 2021 - Present</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------Services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Web Design</h2>
+                <p>"As a novice web designer, I specialize in crafting simple and basic website interfaces.
+                    My focus is on delivering clean, user-friendly designs that balance aesthetics with functionality, 
+                    creating a seamless experience for users."</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>"As a novice UI/UX designer, I focus on creating intuitive and engaging user experiences.
+                    By blending clean, functional interfaces with thoughtful user-centric design,
+                    I aim to enhance usability while delivering visually appealing solutions."</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Graphic Designing</h2>
+                <p>"As a graphic designer, I enjoy creating visually captivating designs that communicate ideas effectively.
+                    I focus on combining colors, typography, and imagery to produce clean, engaging visuals that resonate with audiences."
+
+                    This emphasizes creativity and visu</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------portofolio--------------------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/1.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/2.png">
+                <div class="layer">
+                    <h3>Coding</h3>
+                    <p>"Programming isn't just about writing code; it's about thinking creatively and solving problems with elegance and efficiency."</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/3.png">
+                <div class="layer">
+                    <h3>Graphic Designing</h3>
+                    <p>"Graphic design is the art of visual communication. It's not just about aesthetics; it's about creating meaningful connections and telling stories through visuals."</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------------contact------------------------>
+
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>akhilelijah3@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>8374800520</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/JosVmrXpnWpDzCGx/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Akhilelijah3?t=f0hHpFjmGtfAGW-BTtt-Fw&s=09"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    <a href="https://www.instagram.com/akhheyyyil.7/profilecard/?igsh=MWU4dTI5d2V5amU3OQ=="><i class="fa-brands fa-instagram"></i></i></i></a>
+                    <a href="https://www.linkedin.com/in/i-akhil-bb0b65245"><i class="fa-brands fa-linkedin"></i></i></i></a>
+                </div>
+                <a href="images/Resume 1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ AKhil. Made with <i class="fa-solid fa-heart"></i> by Akhil</p>
+    </div>
+</div>
+
+
+
+<script>
+    function opentab(tabname) {
+        const tablinks = document.querySelectorAll(".tab-links");
+        const tabcontents = document.querySelectorAll(".tab-contents");
+
+        tablinks.forEach(link => {
+            link.classList.remove("active-link");
+        });
+
+        tabcontents.forEach(content => {
+            content.classList.remove("active-tab");
+            content.style.maxHeight = null; // Collapse immediately
+            content.style.opacity = "0"; // Fade out
+        });
+
+        const activeTab = document.getElementById(tabname);
+        activeTab.style.maxHeight = activeTab.scrollHeight + "px"; // Set height to full content
+        activeTab.classList.add("active-tab");
+        setTimeout(() => {
+            activeTab.style.opacity = "1"; // Fade in
+        }, 10); // Short delay for display to take effect
+
+        document.querySelector(`.tab-links[onclick="opentab('${tabname}')"]`).classList.add("active-link");
+    }
+
+    window.onload = function() {
+        opentab('Skills'); // Open Skills tab by default
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbxnXA4XOEusHR2FrokBBfWVXjZSVuBGjGcFKYfn11seacIQaObGrGi_y2Ejpn-6mLtS3g/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
